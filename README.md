@@ -30,12 +30,18 @@ This guide will walk you through the process of building an NPM package using We
 
 ## Step 2: Creating Components
 
-1. **Create Source Directory**: Create a folder named `src` to store your source files.
+1. **Create index.js in root directory**: Create a file named `index.js` in the root directory to export the bundle.
+   ```javascript
+   const bundle = require('./dist/bundle')
+   module.exports = bundle
+   ```
+
+2. **Create Source Directory**: Create a folder named `src` to store your source files.
    ```bash
    mkdir src
    ```
 
-2. **Create Component Files**: Within the `src` directory, create your component files. For example:
+3. **Create Component Files**: Within the `src` directory, create your component files. For example:
    - `index.js`: Main entry point for your package.
    - `module.js`: Define your React component or module here.
 
