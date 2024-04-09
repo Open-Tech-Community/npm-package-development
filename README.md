@@ -50,7 +50,7 @@ This guide will walk you through the process of building an NPM package using We
    export { default as Module } from "./module.js";
    ```
 
-   Sample content of `module.js`: (Replace `MODULE_HERE` with your actual module content)
+   Sample content of `module.js`:
    ```javascript
    import React from 'react';
 
