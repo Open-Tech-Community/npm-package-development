@@ -161,7 +161,7 @@ Congratulations! You've successfully created an NPM package using Webpack and Ba
    ```
 2. **Import and use the components**: Then, you can import and use the components/modules provided by your package in your project files:
    ```javascript
-   import { Module } from 'test-package-for-corpola-tech-1'
+   import { Module } from 'test-package'
 
    function App() {
      return (
