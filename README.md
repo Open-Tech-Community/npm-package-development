@@ -52,7 +52,18 @@ This guide will walk you through the process of building an NPM package using We
 
    Sample content of `module.js`: (Replace `MODULE_HERE` with your actual module content)
    ```javascript
-   // MODULE_HERE
+   import React from 'react';
+
+   const Module = () => {
+     return(
+       <h1>
+         Hello, World!
+       </h1>
+     )
+   }
+   
+   export default Module
+
    ```
 
 ## Step 3: Setting Up Webpack and Babel
