@@ -153,3 +153,24 @@ This guide will walk you through the process of building an NPM package using We
   ```
 
 Congratulations! You've successfully created an NPM package using Webpack and Babel. Your package is now ready for distribution and can be easily installed and used by other developers.
+
+# Usage
+1. **Inatall Package**: Once your package is published, you can easily use it in your projects by installing it via npm.
+   ```bash
+   npm install test-package
+   ```
+2. **Import and use the components**: Then, you can import and use the components/modules provided by your package in your project files:
+   ```javascript
+   import { Module } from 'test-package-for-corpola-tech-1'
+
+   function App() {
+     return (
+       <div>
+         <Module />
+       </div>
+     );
+   }
+   
+   export default App;
+
+   ```
